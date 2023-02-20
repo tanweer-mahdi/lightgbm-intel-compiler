@@ -10,11 +10,12 @@ The straightforward workaround for this bug is to disable multithreading. Howeve
 This is a demonstration of how to compile LightGBM from source using [Intel OneAPI DPC++ compiler](https://www.intel.com/content/www/us/en/develop/documentation/get-started-with-dpcpp-compiler/top.html) followed by some additional steps. For reproducibility, the demonstration is done in a Docker container. I have used a basic `ubuntu` image to explicitly show the dependencies required. 
 
 ### Usage:
-#### Installing and setting up the compiler
 _TLDR_: After cloning the repo and building/running the Docker container, run the following command:
 ```
 sh main.sh
 ```
+#### Installing and setting up the compiler
+
 - clone the repo
 - cd the repo, build the Docker image with a tag (using `lgbm` here)
 ```
