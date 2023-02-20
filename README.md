@@ -11,6 +11,10 @@ This is a demonstration of how to compile LightGBM from source using [Intel OneA
 
 ### Usage:
 #### Installing and setting up the compiler
+_TLDR_: After cloning the repo and building/running the Docker container, run the following command:
+```
+sh main.sh
+```
 - clone the repo
 - cd the repo, build the Docker image with a tag (using `lgbm` here)
 ```
