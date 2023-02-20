@@ -4,3 +4,4 @@ source /opt/intel/oneapi/setvars.sh
 cmake -DCMAKE_C_COMPILER=icx -DCMAKE_CXX_COMPILER=icpx ..
 make -j4
 pip install --no-binary :all: lightgbm
+apt-get upgrade libstdc++6
