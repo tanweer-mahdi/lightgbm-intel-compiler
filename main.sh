@@ -5,3 +5,4 @@ cmake -DCMAKE_C_COMPILER=icx -DCMAKE_CXX_COMPILER=icpx ..
 make -j4
 pip install --no-binary :all: lightgbm
 apt-get upgrade libstdc++6
+cp /usr/lib/x86_64-linux-gnu/libstdc++.so.6 /opt/intel/oneapi/intelpython/python3.9/lib/
