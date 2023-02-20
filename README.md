@@ -14,6 +14,8 @@ _TLDR_: After cloning the repo and building/running the Docker container, run th
 ```
 sh main.sh
 ```
+However, I recommend going step by step as following.
+
 #### Installing and setting up the compiler
 
 - clone the repo
